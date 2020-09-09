@@ -7,9 +7,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
-    function App() {
-      return (
-        <Router basename='/web'>
+            <Router basename='/web'>
           <Switch>
             <Route exact path='/'>
               <Home/>
@@ -21,9 +19,5 @@ function App() {
         </Router>
       );
      }
-
-
-  );
-}
 
 export default App;
